@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-between;
+  background-color: transparent;
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+
+  .nav,
+  .cart,
+  .phone {
+    color: white;
+  }
+
+  li {
+    padding-left: 3rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+// @media (max-width: 960px) {
+//   .nav {
+//     display: none;
+//   }
+// }

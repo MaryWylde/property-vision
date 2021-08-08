@@ -1,0 +1,31 @@
+footer {
+  height: 295px;
+  font-size: 12px;
+
+  background-color: #292929;
+  p,
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  .MuiButton-startIcon,
+  .fb,
+  .insta,
+  .linkedIn {
+    color: #ffffff !important;
+  }
+  .MuiTypography-colorPrimary,
+  .MuiBox-root {
+    font-size: 12px;
+    color: #ffffff !important;
+    text-transform: uppercase;
+  }
+  .MuiBox-root {
+    line-height: 1.5rem;
+    font-size: 14px;
+  }
+}
+.MuiBox-root-11 {
+  padding: 4rem;
+}

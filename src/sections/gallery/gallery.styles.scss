@@ -1,0 +1,78 @@
+.imgGallery {
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  // overflow-x: scroll;
+
+  #galleryInfo {
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    padding-bottom: 2rem;
+  }
+  .udpate {
+    background-color: #f33c3c !important;
+    color: white !important;
+    width: 175px;
+    height: 35px;
+    font-size: 13px !important;
+  }
+
+  .galleryItems {
+    height: 400px;
+    overflow: auto;
+
+    .room {
+      width: 332.29px;
+      height: 219.74px;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .btns {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10rem;
+    padding-top: 2rem;
+
+    .whiteBtn {
+      font-size: 13px !important;
+      width: 163px;
+      height: 40px;
+      font-weight: bold !important;
+      background-color: #ffffff !important ;
+      border-color: #000 !important;
+      margin-right: 2rem !important;
+    }
+
+    .blackBtn {
+      width: 150px;
+      height: 40px;
+      font-weight: bold !important;
+      background-color: #000 !important ;
+      color: #ffffff !important;
+      margin-right: 2rem !important;
+    }
+  }
+}
+
+// #galleryInfo:nth-child(2) {
+//   order: 2;
+// }
+// #galleryInfo :nth-child(1) {
+//   order: 1;
+// }
+// .box :nth-child(3) { order: 1; }
+// .box :nth-child(4) { order: 3; }
+// .box :nth-child(5) { order: 1; }
+
+.MuiCheckbox-root {
+  position: absolute !important;
+  right: 1rem;
+  bottom: 1rem;
+  color: white !important;
+}

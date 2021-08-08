@@ -1,0 +1,33 @@
+header {
+  background-image: url("../../assets/backgroungImage.png");
+  height: 600px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin-bottom: 7rem;
+}
+
+.downloadCenter {
+  color: white;
+  text-transform: uppercase;
+  width: 50%;
+  height: 75%;
+  //border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem;
+  line-height: 1.6rem;
+
+  h2 {
+    font-size: 21px;
+  }
+
+  h3 {
+    font-size: 14px;
+  }
+}
+
+img {
+  padding-right: 1rem;
+}

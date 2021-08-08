@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "video": "/assets/vidImg.svg",
+        "size": "1.3GB",
+        "title": "Branded video",
+        "description": "We are very excited to offer our VIRTUAL STAGING service To help our clients adapt to the fast-changing environment of today’s Real Estate Market and bring the best possible value proposition to your listings marketing. 2 days Turnaround Beautiful Ultra-Realistic....",
+        "btnType": "Download video"
+    },
+    {
+        "id": 2,
+        "video": "",
+        "size": "852 MB",
+        "title": "Unbranded Video",
+        "description": "We are very excited to offer our VIRTUAL STAGING service To help our clients adapt to the fast-changing environment of today’s Real Estate Market and bring the best possible value proposition to your listings marketing. 2 days Turnaround Beautiful Ultra-Realistic....",
+        "btnType": "Download video"
+    },
+    {
+        "id": 3,
+        "video": "",
+        "size": "852 MB",
+        "title": "Explore 3D Area",
+        "description": "We are very excited to offer our VIRTUAL STAGING service To help our clients adapt to the fast-changing environment of today’s Real Estate Market and bring the best possible value proposition to your listings marketing. 2 days Turnaround Beautiful Ultra-Realistic....",
+        "btnType2": "Copy Link",
+        "btnType3": "Embed code"
+    }
+]

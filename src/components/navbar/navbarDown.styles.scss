@@ -1,0 +1,37 @@
+.nav2 {
+  display: flex;
+  padding: 2rem;
+  // margin-left: 1rem;
+  padding-top: 5rem;
+  justify-content: space-between;
+  background-color: transparent;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%);
+
+  .menu {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+  .nav2,
+  .phone2 {
+    color: #000;
+  }
+
+  a {
+    text-decoration: none;
+  }
+  li {
+    padding-left: 3rem;
+  }
+  .yellowBtn {
+    background-color: #ffdb11 !important;
+    border-radius: 0px !important;
+    font-weight: bold !important;
+  }
+}
+@media (max-width: 960px) {
+  .nav2 {
+    display: none;
+  }
+}

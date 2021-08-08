@@ -1,0 +1,29 @@
+#vidInfo {
+  display: flex;
+  flex-direction: column;
+
+  .vidType {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    border-bottom: 1px solid #d2d2d2;
+  }
+
+  .imgOfVid {
+    padding: 4rem;
+  }
+}
+.vidBtn {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  padding-bottom: 5rem;
+}
+.context {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 5rem;
+}

@@ -1,0 +1,12 @@
+#floorPlan {
+  padding: 2rem;
+  .floorSection {
+    flex-direction: column;
+    display: flex;
+    padding-top: 2rem;
+
+    .floorTypes {
+      display: flex;
+    }
+  }
+}
