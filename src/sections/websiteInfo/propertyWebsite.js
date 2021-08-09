@@ -3,6 +3,7 @@ import "./propertyWebsite.styles.scss";
 import Devices from "../../assets/devicesMashup.png";
 import GoToWebBtn from "../../components/buttons/goToWebBtn";
 import CopyBtn from "../../components/buttons/copyBtn";
+import UrlBtn from "../../components/buttons/urlBtn";
 import CopyYellowBtn from "../../components/buttons/copyYellowBtn";
 import WatchTutorialBtn from "../../components/buttons/watchTutorialBtn";
 
@@ -51,6 +52,9 @@ const PropertyWebsite = () => (
           Market and bring the best possible value.
         </p>
         <div className="firstBtns">
+          <div id="copy">
+            <UrlBtn />
+          </div>
           <CopyYellowBtn />
         </div>
         <div className="customize">

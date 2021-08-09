@@ -24,6 +24,16 @@
   font-size: 12px !important;
   font-weight: bold !important;
 }
+.url {
+  width: 398px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.3) !important;
+
+  .copyUrl {
+    position: absolute;
+    left: 13px;
+  }
+}
 
 .MuiFilledInput-root {
   width: 150px;

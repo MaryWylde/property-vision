@@ -10,7 +10,6 @@ import Video from "../../assets/video2.svg";
 import Floor from "../../assets/floor2.svg";
 import Button from "@material-ui/core/Button";
 import ScheduleIcon from "@material-ui/icons/Schedule";
-import PropertyWebsite from "../../sections/websiteInfo/propertyWebsite";
 
 import {
   Link,
