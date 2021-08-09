@@ -39,6 +39,7 @@
   .customURL,
   .customize {
     padding: 0;
+    padding-top: 0;
   }
 }
 
@@ -69,10 +70,12 @@
     .customURL,
     .customize {
       padding: 1rem;
+      padding-top: 3rem;
     }
     .firstBtns {
       padding: 0;
     }
+
     #copy {
       margin-right: 0.5rem !important;
     }

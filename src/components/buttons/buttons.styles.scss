@@ -49,3 +49,17 @@
     font-weight: bold !important;
   }
 }
+
+@media (max-width: 900px) {
+  .url {
+    width: 150px !important;
+    height: 40px !important;
+    .copyUrl {
+      display: none;
+    }
+  }
+
+  .MuiButton-label {
+    font-size: 11px !important;
+  }
+}
