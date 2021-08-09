@@ -1,13 +1,13 @@
 import React from "react";
 import Video from "../../assets/vidImg.svg";
+import InstaImg from "../../assets/instaOverView.svg";
 import "../videoInfo/videoInfo.styles.scss";
 import VidDownloader from "../../components/buttons/vidDownloaderBtn";
-import Button from "@material-ui/core/Button";
 
 const overView = [
   {
     id: 1,
-    img: "",
+    img: [InstaImg],
     size: "1.3 GB",
     name: "Instagram video",
     description:
@@ -15,7 +15,7 @@ const overView = [
   },
   {
     id: 2,
-    img: "../../assets/instaOverView.svg",
+    img: [Video],
     size: "852 MB",
     name: "Editable Heading",
     description: "Editable Description Lorem Ipsum...",
@@ -28,7 +28,7 @@ const VideoInfo = () => (
       {overView.map((info) => (
         <div key={info.id} className="vidType">
           <div className="imgOfVid">
-            <img src={Video} alt="video" />
+            <img src={info.img} alt="video" />
           </div>
           <div className="context">
             <h1>{info.name}</h1>

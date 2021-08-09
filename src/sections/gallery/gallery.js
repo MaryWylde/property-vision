@@ -45,7 +45,7 @@ const Images = [
 const Gallery = () => (
   <div className="imgGallery" id="gallery">
     <div id="galleryInfo">
-      <h1>Gallery</h1>
+      <h1 className="title">Gallery</h1>
       <p>Quantity: 163 • Size: 1.39GB </p>
       <Button variant="contained" disabled className="udpate">
         Updated: 8/06/2021

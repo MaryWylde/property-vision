@@ -5,6 +5,7 @@ import Link from "@material-ui/core/Link";
 import Typography from "@material-ui/core/Typography";
 import PhoneIcon from "@material-ui/icons/Phone";
 import Button from "@material-ui/core/Button";
+
 export default function NavBar() {
   return (
     <Typography className="nav2">

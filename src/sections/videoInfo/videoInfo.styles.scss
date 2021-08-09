@@ -4,8 +4,9 @@
 
   .vidType {
     display: flex;
+    align-items: center;
     width: 100%;
-    height: 50vh;
+    height: 55vh;
     border-bottom: 1px solid #d2d2d2;
   }
 
@@ -18,7 +19,7 @@
   display: flex;
   align-items: flex-end;
   justify-content: space-around;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
 }
 .context {
   width: 100%;

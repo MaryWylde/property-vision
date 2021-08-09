@@ -30,7 +30,7 @@ const floorPlanData = [
 const FloorPlan = () => (
   <section id="floorPlan">
     <div>
-      <h1>Floor plan</h1>
+      <h1 className="title">Floor plan</h1>
       <p>
         We are very excited to offer our VIRTUAL STAGING service To help our
         clients adapt to the fast-changing environment of today’s Real Estate

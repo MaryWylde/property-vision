@@ -5,6 +5,9 @@
   align-items: center;
   flex-direction: column;
 
+  .title {
+    text-transform: uppercase;
+  }
   #galleryInfo {
     display: flex;
     flex-direction: column;

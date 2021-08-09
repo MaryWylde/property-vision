@@ -37,8 +37,9 @@ const Content = () => (
           <div>
             <Faq />
           </div>
-
-          <Footer />
+          <div>
+            <Footer />
+          </div>
         </div>
       </div>
     </div>

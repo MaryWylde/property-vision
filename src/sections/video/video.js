@@ -1,13 +1,13 @@
 import React from "react";
 import Button from "@material-ui/core/Button";
 import FileCopyIcon from "@material-ui/icons/FileCopy";
+import CodeIcon from "@material-ui/icons/Code";
 import "../video/video.styles.scss";
 import Video from "../../assets/vidImg.svg";
 
 const data = [
   {
     id: 1,
-
     size: "1.3GB",
     title: "Branded video",
     description:
@@ -16,7 +16,6 @@ const data = [
   },
   {
     id: 2,
-
     size: "852 MB",
     title: "Unbranded Video",
     description:
@@ -25,7 +24,6 @@ const data = [
   },
   {
     id: 3,
-
     size: "852 MB",
     title: "Explore 3D Area",
     description:
@@ -38,7 +36,7 @@ const data = [
 const VideoPage = () => (
   <section id="videoSection">
     <div>
-      <h1>Video / 3d matterpoint</h1>
+      <h1 className="title">Video / 3d matterpoint</h1>
       <Button variant="contained" disabled className="udpate">
         Updated: 8/06/2021
       </Button>
@@ -69,7 +67,11 @@ const VideoPage = () => (
                 </Button>
               </div>
               <div>
-                <Button variant="contained" className="yellowBtn embed">
+                <Button
+                  variant="contained"
+                  startIcon={<CodeIcon />}
+                  className="yellowBtn embed"
+                >
                   {info.btnType3}
                 </Button>
               </div>
