@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../src/components/header/header";
 import Content from "../src/pages/mainContent/content";
 import "./App.styles.scss";
+
 function App() {
   return (
     <>

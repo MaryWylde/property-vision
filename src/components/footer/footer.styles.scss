@@ -1,5 +1,4 @@
 footer {
-  height: 295px;
   font-size: 12px;
 
   background-color: #292929;
@@ -28,4 +27,10 @@ footer {
 }
 .MuiBox-root-11 {
   padding: 4rem;
+}
+
+@media (max-width: 960px) {
+  .MuiGrid-container {
+    flex-direction: row !important;
+  }
 }

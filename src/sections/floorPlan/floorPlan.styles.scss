@@ -1,12 +1,44 @@
 #floorPlan {
-  padding: 2rem;
+  padding: 3rem;
+  p {
+    width: 30%;
+  }
   .floorSection {
-    flex-direction: column;
-    display: flex;
     padding-top: 2rem;
 
     .floorTypes {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+    }
+
+    .buttons {
       display: flex;
+      justify-content: flex-end;
+      padding: 1rem;
+      padding-right: 8rem;
+    }
+    .first {
+      padding-top: 0.4rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  #floorPlan {
+    padding: 2rem;
+    p {
+      width: 100%;
+    }
+    .floorSection {
+      .buttons {
+        padding-right: 0;
+        justify-content: center;
+      }
+    }
+    .floorTypes {
+      height: 400px;
+      overflow: auto;
     }
   }
 }

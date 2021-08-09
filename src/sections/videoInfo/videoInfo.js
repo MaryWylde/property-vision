@@ -1,7 +1,9 @@
 import React from "react";
 import Video from "../../assets/vidImg.svg";
 import "../videoInfo/videoInfo.styles.scss";
+import VidDownloader from "../../components/buttons/vidDownloaderBtn";
 import Button from "@material-ui/core/Button";
+
 const overView = [
   {
     id: 1,
@@ -20,32 +22,28 @@ const overView = [
   },
 ];
 
-export default function VideoInfo() {
-  return (
-    <section id="vidInfo">
-      {/* <h1>Video / 3d matterpoint</h1> */}
-      <div className="vidOpt">
-        {overView.map((info) => (
-          <div key={info.id} className="vidType">
-            <div className="imgOfVid">
-              <img src={Video} alt="video" />
-            </div>
-            {/* <img src={instaOverView} /> */}
-            <div className="context">
-              <h1>{info.name}</h1>
-              <a> Size {info.size}</a>
-              <h1>{info.title}</h1>
-              <p> {info.description} </p>
-              <a> Learn more </a>
-            </div>
-            <div className="vidBtn">
-              <Button variant="contained" className="yellowBtn">
-                Download Video
-              </Button>
-            </div>
+const VideoInfo = () => (
+  <section id="vidInfo">
+    <div className="vidOpt">
+      {overView.map((info) => (
+        <div key={info.id} className="vidType">
+          <div className="imgOfVid">
+            <img src={Video} alt="video" />
           </div>
-        ))}
-      </div>
-    </section>
-  );
-}
+          <div className="context">
+            <h1>{info.name}</h1>
+            <a> Size {info.size}</a>
+            <h1>{info.title}</h1>
+            <p> {info.description} </p>
+            <a> Learn more </a>
+          </div>
+          <div className="vidBtn">
+            <VidDownloader />
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+);
+
+export default VideoInfo;

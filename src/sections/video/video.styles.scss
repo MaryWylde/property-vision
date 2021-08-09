@@ -13,6 +13,12 @@
     display: flex;
     flex-direction: row;
 
+    .twoBtn {
+      display: flex;
+    }
+    .btn {
+      padding-right: 2rem;
+    }
     .opt:nth-child(3) {
       .download {
         display: none;
@@ -34,9 +40,39 @@
       width: 430px;
       height: 238px;
     }
-
+    .img {
+      padding-right: 1rem;
+    }
     #description {
       width: 70%;
+    }
+  }
+}
+
+@media (max-width: 960px) {
+  #videoSection {
+    padding: 0rem;
+    .videoOptions {
+      flex-direction: column;
+
+      .opt:nth-child(1) {
+        display: none;
+      }
+
+      .opt:nth-child(2) {
+        display: none;
+      }
+
+      #description {
+        width: 100%;
+      }
+      .img {
+        padding-right: 0;
+      }
+      #vidImg {
+        height: 208.1201934814453px;
+        width: 375px;
+      }
     }
   }
 }

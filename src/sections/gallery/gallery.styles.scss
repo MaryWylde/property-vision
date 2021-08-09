@@ -4,7 +4,6 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  // overflow-x: scroll;
 
   #galleryInfo {
     display: flex;
@@ -60,19 +59,25 @@
   }
 }
 
-// #galleryInfo:nth-child(2) {
-//   order: 2;
-// }
-// #galleryInfo :nth-child(1) {
-//   order: 1;
-// }
-// .box :nth-child(3) { order: 1; }
-// .box :nth-child(4) { order: 3; }
-// .box :nth-child(5) { order: 1; }
-
 .MuiCheckbox-root {
   position: absolute !important;
   right: 1rem;
   bottom: 1rem;
   color: white !important;
+}
+
+@media (max-width: 960px) {
+  .imgGallery .btns {
+    justify-content: center;
+    width: auto;
+    padding-right: 0;
+
+    .imgGallery {
+      padding: 2rem;
+    }
+
+    .whiteBtn {
+      display: none !important;
+    }
+  }
 }

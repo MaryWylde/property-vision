@@ -26,4 +26,27 @@
   flex-direction: column;
   justify-content: flex-start;
   padding: 5rem;
+  padding-top: 0rem;
+}
+
+@media (max-width: 960px) {
+  #vidInfo {
+    flex-direction: row;
+
+    img {
+      height: 208.1201934814453px;
+      width: 375px;
+    }
+    .imgOfVid {
+      padding: 0;
+    }
+    .vidType {
+      flex-direction: column;
+      height: 90vh;
+    }
+    .context {
+      padding: 4rem;
+      padding-top: 0rem;
+    }
+  }
 }

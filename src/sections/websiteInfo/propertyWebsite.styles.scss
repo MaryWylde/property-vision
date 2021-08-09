@@ -33,6 +33,12 @@
     text-transform: uppercase;
     font-size: 25px;
   }
+  .branded,
+  .unbranded,
+  .customURL,
+  .customize {
+    padding: 0;
+  }
 }
 
 .firstBtns {
@@ -43,5 +49,31 @@
 
   #copy {
     margin-right: 2rem !important;
+  }
+}
+
+@media (max-width: 960px) {
+  .section1 {
+    flex-direction: column;
+    #firstTitle {
+      padding-bottom: 0;
+    }
+    .devices {
+      width: 205px;
+      height: 139px;
+    }
+
+    .branded,
+    .unbranded,
+    .customURL,
+    .customize {
+      padding: 1rem;
+    }
+    .firstBtns {
+      padding: 0;
+    }
+    #copy {
+      margin-right: 0.5rem !important;
+    }
   }
 }
