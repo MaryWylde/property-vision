@@ -26,9 +26,25 @@
     color: #fff;
   }
 }
+.menuIcon {
+  display: none;
+}
 
-@media (max-width: 960px) {
+@media (max-width: 1100px) {
   .nav {
     display: none;
+  }
+  .menuIcon {
+    display: block;
+    position: absolute;
+    right: 2rem;
+    color: white !important;
+    height: 50px !important;
+    width: 60px !important;
+
+    .MuiSvgIcon-root {
+      height: 50px !important;
+      cursor: pointer;
+    }
   }
 }
